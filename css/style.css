@@ -20,10 +20,11 @@
 a,
 a:hover{
     text-decoration: none;
+    color: #ffffff;
 }
 
 a:hover {
-    color: var(--primary-color) !important;
+    color: #00ff2a !important;
 }
 
 ul,
@@ -108,7 +109,7 @@ h3{
     font-size: 3rem;
     font-weight: 900;
     margin-bottom: 3rem;
-    color: #fffb00;
+    color: #ffffff;
 }
 h4{
     font-size: 18px;
@@ -131,10 +132,10 @@ h5{
     display: inline-block;
     padding: 0.625rem 0.875rem;
     line-height: 1.25rem;
-    background-color: var(--third-color);
-    border: 00.1875rem solid var(--third-color);
-    border-radius: 0%;
-    color: var(--black-color);
+    background-color: #0004ff;
+    border: 00.1875rem solid #fff;
+    border-radius: 5%;
+    color: #ffffff;
     font-size: 0.9375rem;
     font-weight: 600;
     text-transform: capitalize;
@@ -146,7 +147,8 @@ h5{
 }
 .main-btn:hover{
     background-color: transparent;
-    color: #df0a0a;
+    color: #51ff00;
+    border: 00.1875rem solid #000000;
 }
 .white-btn{
     display: inline-block;
@@ -234,7 +236,7 @@ h5{
 
 .top-banner{
     width: 100%;
-    background: url(../image/support.png) no-repeat center;
+    background: url(../image/support-1.png) no-repeat center;
     background-size: cover;
     padding: 16.875rem 0 11.325rem;
 }
@@ -243,9 +245,12 @@ h5{
 =============================Edited============================
 */
 .firstp{
-    color: #33ff00;
+    color: var(--secondary-color);
     font-size: 20px;
     font-weight: 200000;
+}
+.secondp{
+    color: #efff5a;
 }
 
 /*
@@ -314,6 +319,7 @@ h5{
     background-size: cover;
     padding-top: 6.25rem;
     text-align: center;
+    opacity: 1;
 }
 .story-section h2{
     color: var(--primary-color);
